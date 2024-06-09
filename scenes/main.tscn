@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://c8825n2rmbt68"]
+[gd_scene load_steps=6 format=3 uid="uid://c8825n2rmbt68"]
 
 [ext_resource type="PackedScene" uid="uid://b2pqw7vi4l2i4" path="res://scenes/player.tscn" id="1_avwyv"]
 [ext_resource type="Script" path="res://scripts/main.gd" id="1_yg1w6"]
 [ext_resource type="PackedScene" uid="uid://c6u3f6qe7kpwf" path="res://scenes/ball.tscn" id="3_k33x8"]
 [ext_resource type="PackedScene" uid="uid://bqyybcohirwdg" path="res://scenes/wall.tscn" id="4_l0e7s"]
+[ext_resource type="PackedScene" uid="uid://c5wc17q6ixab0" path="res://scenes/lose_area.tscn" id="5_ajrty"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_yg1w6")
@@ -24,3 +25,7 @@ rotation = 1.5708
 [node name="Wall3" parent="." instance=ExtResource("4_l0e7s")]
 position = Vector2(640, 0)
 rotation = -1.5708
+
+[node name="LoseArea" parent="." instance=ExtResource("5_ajrty")]
+
+[connection signal="missed" from="LoseArea" to="." method="_on_lose_area_missed"]

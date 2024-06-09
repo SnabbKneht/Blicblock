@@ -21,3 +21,7 @@ func _process(_delta):
 
 func attach_ball_to_player():
 	ball.position = player.position + initial_ball_offset
+
+
+func _on_lose_area_missed():
+	print('Miss')

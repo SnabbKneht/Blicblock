@@ -5,6 +5,7 @@
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_220yc"]
 
 [node name="Wall" type="StaticBody2D"]
+collision_layer = 2
 physics_material_override = ExtResource("1_fc5wy")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
