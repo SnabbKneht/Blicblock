@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bqyybcohirwdg"]
+
+[ext_resource type="PhysicsMaterial" uid="uid://4a7lk82pqh3e" path="res://physics_material.tres" id="1_fc5wy"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_220yc"]
+
+[node name="Wall" type="StaticBody2D"]
+physics_material_override = ExtResource("1_fc5wy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("WorldBoundaryShape2D_220yc")
