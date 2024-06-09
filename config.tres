@@ -4,5 +4,5 @@
 
 [resource]
 script = ExtResource("1_6v033")
-screen_width = 1920
-screen_height = 1080
+screen_width = 640
+screen_height = 360

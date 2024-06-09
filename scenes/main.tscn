@@ -7,13 +7,13 @@
 
 [node name="Main" type="Node"]
 script = ExtResource("1_yg1w6")
-initial_ball_offset = Vector2(0, -80)
+initial_ball_offset = Vector2(0, -8)
 
 [node name="Player" parent="." instance=ExtResource("1_avwyv")]
-position = Vector2(909, 1048)
+position = Vector2(85, 344)
 
 [node name="Ball" parent="." instance=ExtResource("3_k33x8")]
-position = Vector2(910, 982)
+position = Vector2(61, 329)
 
 [node name="Wall" parent="." instance=ExtResource("4_l0e7s")]
 rotation = 3.14159
@@ -22,5 +22,5 @@ rotation = 3.14159
 rotation = 1.5708
 
 [node name="Wall3" parent="." instance=ExtResource("4_l0e7s")]
-position = Vector2(1920, 0)
+position = Vector2(640, 0)
 rotation = -1.5708

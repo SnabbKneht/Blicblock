@@ -2,21 +2,20 @@
 
 [ext_resource type="Script" path="res://scripts/ball.gd" id="1_3wpq5"]
 [ext_resource type="PhysicsMaterial" uid="uid://4a7lk82pqh3e" path="res://physics_material.tres" id="1_77vkp"]
-[ext_resource type="Texture2D" uid="uid://dynj0dq6aeege" path="res://icon.svg" id="1_cskwn"]
+[ext_resource type="Texture2D" uid="uid://dbmbs832xfrbn" path="res://sprites/ball.png" id="3_rft0h"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_0diny"]
-radius = 32.0624
+radius = 9.0
 
 [node name="Ball" type="RigidBody2D"]
 physics_material_override = ExtResource("1_77vkp")
 gravity_scale = 0.0
 lock_rotation = true
 script = ExtResource("1_3wpq5")
-start_force = 1000.0
+start_force = 300.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_0diny")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.5, 0.5)
-texture = ExtResource("1_cskwn")
+texture = ExtResource("3_rft0h")
