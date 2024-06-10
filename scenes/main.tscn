@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://c8825n2rmbt68"]
+[gd_scene load_steps=7 format=3 uid="uid://c8825n2rmbt68"]
 
 [ext_resource type="PackedScene" uid="uid://b2pqw7vi4l2i4" path="res://scenes/player.tscn" id="1_avwyv"]
 [ext_resource type="Script" path="res://scripts/main.gd" id="1_yg1w6"]
 [ext_resource type="PackedScene" uid="uid://c6u3f6qe7kpwf" path="res://scenes/ball.tscn" id="3_k33x8"]
 [ext_resource type="PackedScene" uid="uid://bqyybcohirwdg" path="res://scenes/wall.tscn" id="4_l0e7s"]
 [ext_resource type="PackedScene" uid="uid://c5wc17q6ixab0" path="res://scenes/lose_area.tscn" id="5_ajrty"]
+[ext_resource type="PackedScene" uid="uid://cjakp0bfihk8n" path="res://scenes/block.tscn" id="6_j5n85"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_yg1w6")
@@ -27,5 +28,366 @@ position = Vector2(640, 0)
 rotation = -1.5708
 
 [node name="LoseArea" parent="." instance=ExtResource("5_ajrty")]
+
+[node name="Blocks" type="Node2D" parent="."]
+
+[node name="Block" parent="Blocks" instance=ExtResource("6_j5n85")]
+
+[node name="Block2" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(32, 0)
+
+[node name="Block3" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(64, 0)
+
+[node name="Block4" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(96, 0)
+
+[node name="Block5" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(128, 0)
+
+[node name="Block6" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(160, 0)
+
+[node name="Block7" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(192, 0)
+
+[node name="Block8" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(224, 0)
+
+[node name="Block9" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(256, 0)
+
+[node name="Block10" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(288, 0)
+
+[node name="Block11" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(320, 0)
+
+[node name="Block12" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(352, 0)
+
+[node name="Block13" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(384, 0)
+
+[node name="Block14" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(416, 0)
+
+[node name="Block15" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(448, 0)
+
+[node name="Block16" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(480, 0)
+
+[node name="Block17" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(512, 0)
+
+[node name="Block18" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(544, 0)
+
+[node name="Block19" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(576, 0)
+
+[node name="Block20" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(608, 0)
+
+[node name="Block21" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(0, 32)
+
+[node name="Block22" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(32, 32)
+
+[node name="Block23" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(64, 32)
+
+[node name="Block24" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(96, 32)
+
+[node name="Block25" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(128, 32)
+
+[node name="Block26" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(160, 32)
+
+[node name="Block27" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(192, 32)
+
+[node name="Block28" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(224, 32)
+
+[node name="Block29" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(256, 32)
+
+[node name="Block30" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(288, 32)
+
+[node name="Block31" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(320, 32)
+
+[node name="Block32" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(352, 32)
+
+[node name="Block33" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(384, 32)
+
+[node name="Block34" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(416, 32)
+
+[node name="Block35" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(448, 32)
+
+[node name="Block36" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(480, 32)
+
+[node name="Block37" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(512, 32)
+
+[node name="Block38" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(544, 32)
+
+[node name="Block39" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(576, 32)
+
+[node name="Block40" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(608, 32)
+
+[node name="Block41" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(0, 64)
+
+[node name="Block42" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(32, 64)
+
+[node name="Block43" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(64, 64)
+
+[node name="Block44" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(96, 64)
+
+[node name="Block45" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(128, 64)
+
+[node name="Block46" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(160, 64)
+
+[node name="Block47" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(192, 64)
+
+[node name="Block48" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(224, 64)
+
+[node name="Block49" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(256, 64)
+
+[node name="Block50" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(288, 64)
+
+[node name="Block51" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(320, 64)
+
+[node name="Block52" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(352, 64)
+
+[node name="Block53" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(384, 64)
+
+[node name="Block54" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(416, 64)
+
+[node name="Block55" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(448, 64)
+
+[node name="Block56" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(480, 64)
+
+[node name="Block57" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(512, 64)
+
+[node name="Block58" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(544, 64)
+
+[node name="Block59" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(576, 64)
+
+[node name="Block60" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(608, 64)
+
+[node name="Block61" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(0, 96)
+
+[node name="Block62" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(32, 96)
+
+[node name="Block63" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(64, 96)
+
+[node name="Block64" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(96, 96)
+
+[node name="Block65" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(128, 96)
+
+[node name="Block66" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(160, 96)
+
+[node name="Block67" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(192, 96)
+
+[node name="Block68" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(224, 96)
+
+[node name="Block69" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(256, 96)
+
+[node name="Block70" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(288, 96)
+
+[node name="Block71" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(320, 96)
+
+[node name="Block72" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(352, 96)
+
+[node name="Block73" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(384, 96)
+
+[node name="Block74" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(416, 96)
+
+[node name="Block75" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(448, 96)
+
+[node name="Block76" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(480, 96)
+
+[node name="Block77" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(512, 96)
+
+[node name="Block78" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(544, 96)
+
+[node name="Block79" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(576, 96)
+
+[node name="Block80" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(608, 96)
+
+[node name="Block81" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(0, 128)
+
+[node name="Block82" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(32, 128)
+
+[node name="Block83" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(64, 128)
+
+[node name="Block84" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(96, 128)
+
+[node name="Block85" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(128, 128)
+
+[node name="Block86" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(160, 128)
+
+[node name="Block87" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(192, 128)
+
+[node name="Block88" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(224, 128)
+
+[node name="Block89" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(256, 128)
+
+[node name="Block90" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(288, 128)
+
+[node name="Block91" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(320, 128)
+
+[node name="Block92" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(352, 128)
+
+[node name="Block93" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(384, 128)
+
+[node name="Block94" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(416, 128)
+
+[node name="Block95" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(448, 128)
+
+[node name="Block96" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(480, 128)
+
+[node name="Block97" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(512, 128)
+
+[node name="Block98" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(544, 128)
+
+[node name="Block99" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(576, 128)
+
+[node name="Block100" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(608, 128)
+
+[node name="Block101" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(0, 160)
+
+[node name="Block102" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(32, 160)
+
+[node name="Block103" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(64, 160)
+
+[node name="Block104" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(96, 160)
+
+[node name="Block105" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(128, 160)
+
+[node name="Block106" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(160, 160)
+
+[node name="Block107" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(192, 160)
+
+[node name="Block108" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(224, 160)
+
+[node name="Block109" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(256, 160)
+
+[node name="Block110" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(288, 160)
+
+[node name="Block111" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(320, 160)
+
+[node name="Block112" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(352, 160)
+
+[node name="Block113" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(384, 160)
+
+[node name="Block114" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(416, 160)
+
+[node name="Block115" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(448, 160)
+
+[node name="Block116" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(480, 160)
+
+[node name="Block117" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(512, 160)
+
+[node name="Block118" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(544, 160)
+
+[node name="Block119" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(576, 160)
+
+[node name="Block120" parent="Blocks" instance=ExtResource("6_j5n85")]
+position = Vector2(608, 160)
 
 [connection signal="missed" from="LoseArea" to="." method="_on_lose_area_missed"]
