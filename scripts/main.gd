@@ -25,4 +25,4 @@ func attach_ball_to_player():
 
 func _on_lose_area_missed():
 	await get_tree().create_timer(2.0).timeout
-	get_tree().reload_current_scene()
+	SceneLoader.load_scene(SceneLoader.menu_scene)
